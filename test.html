@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center>
+        <h2>JHON Doe's Web Portfolio</h2>
+        <h4>showcasing html skills using Table</h4>
+    </center>
+    <center>
+        <a href="#aboutme">ABOUT ME| </a> &nbsp &nbsp
+        <a href="#skills">SKILLS| </a> &nbsp &nbsp
+        <a href="#projects">PROJECTS| </a> &nbsp &nbsp
+         <a href="#contact">CONTACT </a> &nbsp &nbsp
+    </center>
+    <h3 id ="aboutme"></h3>
+    <h3 id ="skills"></h3>
+    <h3 id ="projects"></h3>
+    <h3 id ="contact"></h3>
+     <br>
+   
+    <table border="1" cellpadding="5" cellspacing="0" width="100%" >
+        <tr>
+            <td colspan="2">
+                <h2>About me</h2>
+                <p>Hello! I am jhon Doe, a passoniate web developer I love builting a semantic and proojects</p>
+                <p>i specilize in front end developement ,espically HTML,CSS, and Java script</p>
+            </td>
+            <!-- <td></td> -->
+        </tr>
+        <tr>
+            <td >
+                <h2>SKILLS</h2>
+                <ul default="circle">
+                     <li>HTML/CSS</li>
+                     <li>JAVA SCRIPT</li>
+                     <li>Responsive Design </li>
+                     <li> Git & Github</li>
+                </ul>
+
+                <h2>Skills levels</h2>
+                <table border="1" cellpadding="5" cellspacing="0" >
+                    <tr>
+                        <td>skills </td>
+                        <td>Level</td>
+                    </tr>
+                    <tr>
+                        <td>Html</td>
+                        <td>Expert</td>
+                    </tr>
+                    <tr>
+                        <td>CSS</td>
+                        <td>Expert</td>
+                    </tr>
+                    <tr>
+                        <td>Java script</td>
+                        <td>Intermediate</td>
+                    </tr>
+                </table>
+            </td>
+
+
+            <td>
+                <h2>Projects</h2>
+                <p><b>1.portfolio website-</b> My personal portfolio built using HTML and CSS</p>
+                <p><b>2.Todoap-</b> a task management using tool with  vanilla J ava script</p>
+                <p><b>3.wetherapp-</b>A real time weather dashboard</p>
+                <h2>Screenshot</h2>
+                <img src="./images/Html.png">
+            </td>
+           
+        </tr>
+        
+        <tr>
+            
+            <td colspan="2">
+                <center>
+                <h2>contact me</h2>
+                <p>contact form</p>
+
+                <lable for ="fullname">Fullname :</lable>
+                <input type="text" name="Fullname" id = "fullname">
+                <br>
+                <br>
+                 
+                
+                <lable for ="email" >Email :</lable>
+                <input type="email" name="email" id="email">
+
+                <br>
+                <lable>Gender:</lable>
+                <lable for="male">male</lable>
+                <input type="radio" id="male" name="gender" value="male">
+                <lable for ="female" >Female</lable>
+                <input type="radio" id="female" name="gender" value="female">
+
+                <lable for="servive_interest">Service interest</lable>
+                <input type="checkbox" id="servive_interest" name="service interest">Web Design<br>
+                <input type="checkbox" id="servive_interest" name="service interest">SEO<br>
+
+                <lable for="country">country:</lable>
+                <select value="" ><option value="">USA</option></select> <br>
+                <lable >message:</lable>
+                <textarea rols="5"  ></textarea><br>
+                <input type="submit">
+                
+                 </center>
+             </td>
+              <!-- <td></td> -->
+           
+        </tr>
+        <tr>
+            <td colspan="2">
+                  <p>Last updated:13 August 2025</p>
+                  <br>
+                  <p>Created by Jhon's Doe</p>
+                  <p>Email:<a href="">jhon@example.com</a></p>
+                  <p>Website:<a href="">example.com</a></p>
+                  
+            </td>
+            <!-- <td></td> -->
+        </tr>
+    </table>
+</body>
+</html>
